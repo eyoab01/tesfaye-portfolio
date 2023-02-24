@@ -395,6 +395,7 @@ ul {
   border-radius: 8px;
   margin-bottom: 22px;
 }
+
 .contact-form button {
   align-self: center;
   margin-left: 25px;
@@ -674,7 +675,7 @@ ul {
   }
 
   .desk-list:hover {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 
   .heading {
@@ -942,9 +943,10 @@ ul {
     pointer-events: none;
   }
 
-  .desktop-nav li{
+  .desktop-nav li {
     align-self: center;
   }
+
   .desk-list {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -953,7 +955,6 @@ ul {
     line-height: 44px;
     color: #fff;
     position: absolute;
-
   }
 
   #porfolio {

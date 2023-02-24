@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesfaye Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <div class="wrapper">
+            <a href="index.html" class="logo">Tesfaye T.</a>
+        </div>
+        <nav class="menu">
+            <a href="#"><img src="./images/icons/hamburger.png" alt="Menu Icon" class="header-image-mobile"></a>
+            <i class="fa fa-close" id="close-icon" style="font-size:36px"></i>
+            
+            <ul class="desktop-nav">
+                <li><a href="#portfolio" class="desk-list" id="porfolio">Portfolio</a></li>
+                <li><a href="#about-to" class="desk-list" id="about">About</a></li>
+                <li><a href="#contact-body" class="desk-list" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-part">
+        <section class="heading" id="portfolio">
+            <h1 class="heading-h1">I'm Tesfaye <br> Glad to see you!</h1>
+            <p class="intro">I’m a software developer! I can help you build a product , feature or website Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+            <h2 class="lets-connect">LET’S CONNECT</h2>
+
+            <ul class="mini-icons">
+                <li><a href="https://github.com/eyoab01"><img class="mini-img" src="./images/icons/Github_icon.svg"
+                    alt="Github logo"></a></li>
+        <li><a href="https://linkedin.com/in/tesfaye-teklu-352067105"><img class="mini-img" src="./images/icons/Linkedin_icon.svg"
+                    alt="Linkedin Icon"></a></li>
+        <li><a href="angelist.com"><img class="mini-img" src="./images/icons/Angelist.svg"
+                    alt="Angelist logo"></a></li>
+        <li><a href="https://twitter.com/TesfayeTeklu10"><img class="mini-img" src="./images/icons/Twitter_logo.svg"
+                    alt="Twitter_logo"></a></li>
+        <li><a href="medium.com"><img class="mini-img" src="./images/icons/Medium.svg"
+                    alt="Medium logo"></a>
+        </li>
+
+            </ul>
+        </section>
+    
+        <!-- First Page -->
+        <section class="work-exp">
+            
+        </section>
+    
+        <section class="about-m-sec" id="about">
+            <article class="about-top">
+                <h2 class="about-header">About <br> 
+                    Myself</h2>
+                <p class="about-p">Hello I’m a software developer! I can help you build a product ,
+                    feature or website Look through some of my work and experience! If you like what you see and have a
+                    project you need coded, don’t hestiate to contact me.</p>
+                <h2 class="lets-connect">LET’S CONNECT</h2>
+                <ul class="mini-icons">
+                    <li><a href="https://github.com/eyoab01"><img class="mini-img" src="./images/icons/Github_icon.svg"
+                                alt="Github logo"></a></li>
+                    <li><a href="https://linkedin.com/in/tesfaye-teklu-352067105"><img class="mini-img" src="./images/icons/Linkedin_icon.svg"
+                                alt="Linkedin Icon"></a></li>
+                    <li><a href="angelist.com"><img class="mini-img" src="./images/icons/Angelist.svg"
+                                alt="Angelist logo"></a></li>
+                    <li><a href="https://twitter.com/TesfayeTeklu10"><img class="mini-img" src="./images/icons/Twitter_logo.svg"
+                                alt="Twitter_logo"></a></li>
+                    <li><a href="medium.com"><img class="mini-img" src="./images/icons/Medium.svg"
+                                alt="Medium logo"></a>
+                    </li>
+                </ul>
+                <button class="button-resume" type="button">
+                         Get my resume
+                </button>
+            </article>
+
+            <article>
+                <ul>
+                    <li>
+                        <ul class="about-list">
+                            <li>Languages</li>
+                            <li> <img src="./images/icons/Icon-Chevron-Down-Larger.png" alt="Arrow"></li>
+                        </ul>
+                        <ul class="lang-list">
+                            <li class="lang-logo">
+                                <img src="./images/icons/js-logo-counter.png" alt="Javascript logo">
+                                <span>Javascript</span>
+                            </li>
+                            <li class="lang-logo">
+                                <img src="./images/icons/html-logo-counter.png" alt="Javascript logo">
+                                <span>HTML</span>
+                            </li>
+                            <li class="lang-logo">
+                                <img src="./images/icons/css-logo-counter.png" alt="Javascript logo">
+                                <span>CSS</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about-btm">
+                            <li>Frameworks</li>
+                            <li> <img src="./images/icons/Icon-Chevron-Right-Larger.png" alt="Arrow"></li>
+                        </ul>
+                        <ul class="about-btm">
+                            <li>Skills</li>
+                            <li> <img src="./images/icons/Icon-Chevron-Right-Larger.png" alt="Arrow"></li>
+                        </ul>
+                    <li>
+                </ul>
+            </article>
+        </section>
+        <section class="contact" id="contact">
+            <article class="contact-body">
+                <h2 class="contact-h2">Contact Me</h2>
+                <p class="contact-p">If you have an application you are interested in developing, a feature that you
+                    need built or a project that needs coding. I’d love to help with it </p>
+            </article>
+            <article class="form-article">
+                <form action="https://formspree.io/f/xpzbbbob" method="POST" class="contact-form" id="contact-form">
+                    <label for="name"></label>
+                    <input type="text" name="Name" placeholder="Write name." required maxlength="30" id="name">
+                    <label for="email"></label>
+                    <input type="email" name="Email" placeholder="example@gmail.com" required id="email">
+                    <label for="msg-box"></label>
+                    <textarea name="message" id="msg-box" cols="30" rows="10"
+                        placeholder="write your message in here" maxlength="500" required>
+                    </textarea>
+                        
+                        <div class="alert">
+                            <span></span>
+                            <small id="alert-txt"></small>
+                        </div>
+                        <button type="submit" class="get-in-touch-btn">Get It Touch</button>
+                   
+                </form>
+                <img src="./images/images/contact-bottom.png" alt="a black bar on the bottom of the contact form"
+                    class="home-indicator">
+            </article>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

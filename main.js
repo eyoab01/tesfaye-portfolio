@@ -46,9 +46,9 @@ const projects = [
     'featured image desk': './images/images/snaposhot-1-desktop-p.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      ' https://eyoab01.github.io/tesfaye-portfolio/',
+      ' https://eyoab01.github.io/urrpo/',
     'link to source':
-      ' https://eyoab01.github.io/tesfaye-portfolio/',
+      'https://eyoab01.github.io/urrpo/',
     id: 0,
   },
   {
@@ -60,9 +60,9 @@ const projects = [
     'featured image desk': './images/images/multi-post-portfolio-desktop-1.svg',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      ' https://eyoab01.github.io/tesfaye-portfolio/',
+      ' https://eyoab01.github.io/capstone-project-tesfaye/',
     'link to source':
-      ' https://eyoab01.github.io/tesfaye-portfolio/',
+      ' https://eyoab01.github.io/capstone-project-tesfaye/',
     id: 1,
   },
   {

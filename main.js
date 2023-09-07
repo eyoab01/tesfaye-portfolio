@@ -38,15 +38,15 @@ email.value = localStorage.getItem('Email');
 
 const projects = [
   {
-    name: 'Tonic',
-    title: 'Tonic',
+    name: 'URRPO',
+    title: 'URRPO.gov.et',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'featured image': './images/images/tonic-page-1.png',
     'featured image desk': './images/images/snaposhot-1-desktop-p.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      ' https://eyoab01.github.io/urrpo/',
+      ' https://www.urrpo.gov.et',
     'link to source':
       'https://eyoab01.github.io/urrpo/',
     id: 0,
